@@ -130,7 +130,6 @@
         height: calc(var(--header-height) + 1rem);
     }
     .nav__toggle,
-
     .nav__close {
         display: none;
     }
