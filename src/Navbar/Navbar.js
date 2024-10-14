@@ -18,7 +18,13 @@ const Navbar = () => {
                         <li className="nav__item">
                             <NavLink to="/" className="nav__link">Home</NavLink>
                         </li>
+                        <li className="nav__item">
+                            <NavLink to="/news" className="nav__link">
+                                News
+                            </NavLink>
+                        </li>
                     </ul>
+
                     <div className="nav__close" id="nav-close" onClick={toggleMenu}>
                         <IoClose />
                     </div>
